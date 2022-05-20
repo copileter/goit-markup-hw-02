@@ -1,22 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 .list {
   list-style: none;
-
 }
 
 a {
   text-decoration: none;
 }
 
-/* <!--header--> */
+body {
+  font-family: 'Roboto';
+}
+
+/* header */
 
 .logo {
   color: #000000;
 }
 
 .blue {
-
-  color: #2196F3;
+  color: #2196f3;
+}
+.white {
+  color: #ffffff;
 }
 
 .logo {
@@ -28,151 +38,130 @@ a {
   letter-spacing: 0.03em;
 }
 
-
 .logo {
   color: #000000;
 }
 
-
-
 .link {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
-.contacts a {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.02em;
-    color: #757575;
+.active {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 150, 243, 1);
+}
+
+.contacts {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 /* main */
+.hero {
+  background-color: #2f303a;
+}
+
+.section-team {
+  background-color: rgba(245, 244, 250, 1);
+}
 
 .hero .hero-title {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 136%;
-   /* color: #FFFFFF; */
-  
-      text-align: center;
-      letter-spacing: 0.06em;
-      text-transform: uppercase
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  color: #ffffff;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero button {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 188%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-  
-    color: #FFFFFF;
-
-    width: 200px;
-    height: 50px;
-   
-
-      background: #2196F3;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+  background: rgba(33, 150, 243, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .features .title {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
 }
 
 .features p {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-  
-    color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 .section-title {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .name {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-  
-    color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .team p {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-  
-    color: #757575;
-}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 
-.address {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-  
-    color: #FFFFFF;
+  color: #757575;
 }
 
 /*  */
+
 .site-nav .link {
   color: #212121;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .contacts a:hover,
 .contacts a:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 button {
@@ -180,50 +169,81 @@ button {
 }
 
 .filter button {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 162%px;
-  
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%px;
 
-    width: 145px;
-    height: 38px;
-   
-    background: #F5F4FA;
-      border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  width: 145px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .filter button:hover,
 .filter button:focus {
-  background-color: #2196F3;
-  color: #FFFFFF;
-  
-    border: 1px solid #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #2196f3;
+  color: #ffffff;
+
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .name-pic {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 200%;
-    letter-spacing: 0.06em;
-  
-    color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+
+  color: #212121;
 }
 
 .type-pic {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 188%;
-    letter-spacing: 0.03em;
-  
-    color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* footer */
+
+.section-footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.button-hero {
+  background-color: rgba(33, 150, 243, 1);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  width: 200px;
+  height: 50px;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: rgba(24, 140, 232, 1);
 }
